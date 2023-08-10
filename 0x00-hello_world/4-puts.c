@@ -1,5 +1,5 @@
 #include <stdio.h>
-/**
+/*
  * main prints " programming like building a multilingual
  * new line ."
  * Return: Always 0 (Success)
