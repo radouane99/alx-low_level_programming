@@ -4,6 +4,7 @@
  * new line ."
  * Return: Always 0 (Success)
  */
+
 int main(void)
 {
 /* Print a message using the puts function */
