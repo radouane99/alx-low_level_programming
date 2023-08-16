@@ -2,12 +2,11 @@
 #include "6-abs.c"
 #include <stdio.h>
 /**
-* _islower - main function
+* print_to_98 - a function that prints all natural numbers from n to 98 
+* user input's prints to 98, regardless < 98 or > 98
+* @n:number input
 *
-* @c: character to compare
-*
-* Return: 1 if true, 0 if false
-*
+* Return: always 0 (success)
 */
 void print_to_98(int n)
 {
