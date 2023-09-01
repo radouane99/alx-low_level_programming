@@ -1,24 +1,22 @@
 #include "main.h"
 /**
-* _strncat - function concatenate two strings
-* using at most n bytes from src
-* @dest: entered value
-* @src: entered value
-* @n: entered value
+*_strcat - function that concatenates two strings
+*@dest: entered value
+*@src: entered value
 *
-* Return: dest
+*  Return: void
 */
-char *_strncat(char *dest, char *src, int n)
+char *_strcat(char *dest, char *src)
 {
 int a;
 int b;
 a = 0;
 while (dest[a] != '\0')
 {
-        	a++;
+a++;
 }
 b = 0;
-while (b < n && src[b] != '\0')
+while (src[b] != '\0')
 {
 dest[a] = src[b];
 a++;
@@ -26,4 +24,14 @@ b++;
 }
 dest[a] = '\0';
 return (dest);
+}
+#include "main.h"
+/**
+* _isdigit - checks for a digit (0 through 9)
+* @c: int to be checked
+* Return: 1 if c is a digit, 0 otherwise
+*/
+int _isdigit(int c)
+{
+return (c >= '0' && c <= '9');
 }
